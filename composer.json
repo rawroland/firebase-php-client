@@ -1,0 +1,24 @@
+{
+    "name": "rolandawemo/firebase-php-client",
+    "description": "A PHP client for the firebase platform.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Roland Awemo",
+            "email": "rawroro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"FirebasePhp\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"FirebasePhp\\": "tests"}
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "mockery/mockery": "^0.9.4"
+    }
+}
